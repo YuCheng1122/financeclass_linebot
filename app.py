@@ -19,9 +19,9 @@ app = Flask(__name__)
 CORS(app)
 
 # 必須放上自己的Channel Access Token
-line_bot_api = LineBotApi('你的Channel Access Token')
+line_bot_api = LineBotApi('qu84Pp81PIJp+Ue+8Pb9aOVM2OH3z+Wc1A84diY05Ivq8/sprT01RD/kPFVG4QokoyQrkZwEiulFoDSOA2xoqAG8rPY4RHNgzFLACVAjyIZAqgP5oUyjSlGE//aZWq/Eu62H7VBKT/5jey+x47/cBwdB04t89/1O/w1cDnyilFU=')
 # 必須放上自己的Channel Secret
-handler = WebhookHandler('你的Channel Secret')
+handler = WebhookHandler('4f972d2f23c125181876d28b029d25ad')
 
 # 監聽所有來自 /callback 的 Post Request
 @app.route("/callback", methods=['POST'])
