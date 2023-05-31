@@ -2,7 +2,7 @@ services:
 - type: web
   name: line-bot-python-flask
   env: python
-  repo: https://github.com/使用者帳號名稱/專案名稱
+  repo: https://github.com/YuCheng1122/financeclass_linebot
   buildCommand: cd examples/flask-echo;pip install gunicorn -r requirements.txt
   startCommand: cd examples/flask-echo;gunicorn app:app
   plan: free
